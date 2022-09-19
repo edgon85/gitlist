@@ -1,0 +1,10 @@
+.nickname {
+  font: var(--headline1);
+  margin-block-end: 0.5rem;
+  color: var(--white);
+}
+
+.prof-name {
+  font: var(--headline2-ligth);
+  color: var(--grey-2);
+}

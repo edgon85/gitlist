@@ -1,0 +1,18 @@
+@import './profile-image.css';
+@import './profile-topInfo.css';
+
+.profile-top {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-top {
+    flex-direction: column;
+    gap: 1.5rem;
+    order: 1;
+    align-items: flex-start;
+  }
+}

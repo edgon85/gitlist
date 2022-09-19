@@ -1,0 +1,17 @@
+@import './profile-infoFolows.css';
+@import './social-info.css';
+
+
+.profile-info {
+  font: var(--body2-regular);
+  color: var(--grey-2);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-info {
+    order: 3;
+  }
+}

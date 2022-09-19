@@ -1,0 +1,11 @@
+.social-info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+
+.social-infoItem {
+    display: flex;
+    gap: .5rem;
+}

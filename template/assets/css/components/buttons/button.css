@@ -1,0 +1,14 @@
+.btn {
+  border: 1px solid var(--grey);
+  font: var(--button);
+  color: var(--white);
+  border-radius: 0.5rem;
+  background-color: var(--buttonBg);
+  padding-block: 0.25rem;
+  padding-inline: 1.5rem;
+  cursor: pointer;
+  min-inline-size: 8.5rem;
+  /* display: flex;
+  flex-direction: row; */
+  flex: 1;
+}

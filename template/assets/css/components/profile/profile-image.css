@@ -1,0 +1,23 @@
+.profile-top .image {
+  inline-size: 5rem;
+  block-size: 5rem;
+  border: 1px solid red;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid var(--grey);
+  overflow: hidden;
+}
+
+.profile-top .image img {
+  inline-size: 100%;
+  block-size: 100%;
+  vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-top .image {
+    inline-size: 17.375rem;
+    block-size: 17.375rem;
+  }
+}
