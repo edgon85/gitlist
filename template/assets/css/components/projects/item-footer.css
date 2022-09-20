@@ -1,0 +1,12 @@
+.item-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.item-footer p {
+    font: var(--caption-regular);
+    color: var(--grey-2);
+}
+
+

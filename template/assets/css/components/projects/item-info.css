@@ -1,0 +1,11 @@
+@import './item-title.css';
+@import './item-subtitle.css';
+@import './item-tags.css';
+@import './item-footer.css';
+
+.item-info{
+    grid-area: info;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

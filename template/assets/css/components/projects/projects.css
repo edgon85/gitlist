@@ -1,4 +1,6 @@
+@import './project-item.css';
+
 .projects {
   grid-area: projects;
-  background-color: brown;
+  /* background-color: brown; */
 }

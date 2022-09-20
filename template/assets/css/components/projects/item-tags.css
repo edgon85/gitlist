@@ -1,0 +1,14 @@
+.item-tags{
+    display: flex;
+    gap: 0.25rem;
+}
+
+.tag {
+    /* border: 1px solid var(--primary); */
+    border-radius: 2.375rem;
+    background-color: #15223A;
+    font: var( --caption-medium);
+    padding-block: 0.25rem;
+    padding-inline: 0.75rem;
+    color: var(--primary);
+}

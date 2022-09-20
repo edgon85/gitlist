@@ -1,0 +1,18 @@
+.item-title {
+    display: flex;
+    gap: 1rem;
+}
+
+.item-title p {
+    font: var(--headline2-semi-bold);
+    color: var(--primary);
+}
+
+.item-title .caption {
+    border: 1px solid var(--grey);
+    border-radius: .5rem;
+    padding-block: 0.125rem;
+    padding-inline: .5rem;
+    font: var(--caption-regular);
+    color: var(--grey);
+}
