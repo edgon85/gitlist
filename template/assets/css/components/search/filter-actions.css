@@ -1,0 +1,22 @@
+.filter-actions {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+.select-filter{
+    border: 1px solid red;
+    block-size: 2.5rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: var(--buttonBg);
+    font: var(--body2-semi-bold);
+    color: var(--white);
+    padding-inline-start: 1rem;
+    border-right: .5rem solid transparent;
+    box-sizing: border-box;
+    outline: none;
+}
+.select-filter:focus{
+    background-color: #4F545A;
+}

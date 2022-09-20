@@ -1,4 +1,32 @@
+@import './form.css';
+@import './filter-actions.css';
+
 .search {
-    grid-area: search;
-    background-color: aqua;
+  grid-area: search;
+}
+
+.repos{
+    display: none;
+}
+
+.search-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-block: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .search-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid var(--grey);
+  }
+
+
+  .repos{
+    display: block;
+    font: var(--headline2-semi-bold);
+}
 }

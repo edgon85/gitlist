@@ -1,0 +1,31 @@
+.form {
+    flex: 1;
+}
+
+.input-search {
+    border: 1px solid var(--grey);
+    border-radius: .5rem;
+    block-size: 2.5rem;
+    inline-size: 100%;
+    font: var(--body2-regular);
+    box-sizing: border-box;
+    outline: none;
+    /* outline-offset: var(--primary); */
+    background-color: transparent;
+    color: var(--white);
+    padding-inline: 1rem;
+    /* outline: 1px ridge var(--grey); */
+}
+
+.input-search:focus {
+    border-color: var(--primary);
+}
+
+::-webkit-input-placeholder {
+    color: var(--grey);
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+}
